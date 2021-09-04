@@ -101,20 +101,6 @@ html {
     z-index:2;
 }
 
-#themeToggleBtn {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-    padding: 0.1rem 1rem;
-    border: none;
-    border-radius: 0.2rem;
-    background-color:#222831;
-    font-size: 1.4rem;
-    color: #EEEEEE;
-    cursor: pointer;
-    z-index:2;
-}
-
 .head {
     position: fixed;
     font-size: 1.4rem;
@@ -180,13 +166,6 @@ html {
 .grade3,
 .grade3b::before {
     background-color: lightsalmon !important;
-}
-
-.grade1b,
-.grade2b,
-.grade3b {
-  padding-left: 1.5rem;
-  box-sizing: border-box;
 }
 
 .selected {
