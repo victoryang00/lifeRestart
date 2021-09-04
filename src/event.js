@@ -1,5 +1,6 @@
 import { clone } from './functions/util.js';
 import { checkCondition } from './functions/condition.js';
+import { DQNSolver, DQNOpt, DQNEnv } from 'reinforce-js';
 
 class Event {
     constructor() {}
